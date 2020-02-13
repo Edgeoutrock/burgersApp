@@ -49,8 +49,9 @@ router.delete("/api/cats/route", function(req, res) {
 
   cat.delete( function() {
     
-      res.status(200).end();
+       res.status(200).end();
       // res.redirect("/api/cats");
+      //res.render("index");
     
   });
 });
